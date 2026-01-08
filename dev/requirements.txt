@@ -1,5 +1,5 @@
 click>=8.0
-jinja2>=2.11.3
+jinja2>=3.1.6
 keyring==10.1
 PyGithub
 jsonpath_ng
@@ -11,3 +11,8 @@ rich
 rich_click
 semver
 tabulate
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
